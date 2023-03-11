@@ -74,7 +74,7 @@ function Survey() {
                 <div>
                     {blockchain.chain.map((chain, index) => (
                         <>
-                            <p>Block {index + 1}'s hash{chain.hash}</p>
+                            <p>Block {index + 1}'s hash {chain.hash}</p>
                         </>
                     ))}
                 </div>
